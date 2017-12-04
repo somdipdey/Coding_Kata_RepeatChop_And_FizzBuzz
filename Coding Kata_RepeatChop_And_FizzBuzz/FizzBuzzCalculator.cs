@@ -9,7 +9,7 @@ namespace Coding_Kata_RepeatChop_And_FizzBuzz
     public class FizzBuzzCalculator
     {
         // Method to check divisible by 3
-        public static bool DivisibleByThree(int Num)
+        private static bool DivisibleByThree(int Num)
         {
             if (Num % 3 == 0)
                 return true;
@@ -18,7 +18,7 @@ namespace Coding_Kata_RepeatChop_And_FizzBuzz
         }
 
         // Method to check dividisble by 5
-        public static bool DivisibleByFive(int Num)
+        private static bool DivisibleByFive(int Num)
         {
             if (Num % 5 == 0)
                 return true;
@@ -27,13 +27,13 @@ namespace Coding_Kata_RepeatChop_And_FizzBuzz
         }
 
         // Find the other factor than the divisor of the number
-        public static int OtherFactor(int Paramter, int Divisor)
+        private static int OtherFactor(int Paramter, int Divisor)
         {
             return Paramter / Divisor;
         }
 
         // Replace Z based on the MutipleOfZ variable
-        public static string ReplaceZs(string InputString, int MutipleOfZ)
+        private static string ReplaceZs(string InputString, int MutipleOfZ)
         {
             string zs = new String('z', MutipleOfZ);
             
@@ -42,7 +42,7 @@ namespace Coding_Kata_RepeatChop_And_FizzBuzz
             return InputString;
         }
 
-        public static Tuple<bool, bool, int, int> CalculateMutipleOfThreeOrFive(int Num)
+        private static Tuple<bool, bool, int, int> CalculateMutipleOfThreeOrFive(int Num)
         {
             // Use tuple to return whether the number is divisible by 3 or 5 or both or none.
             // If the number is divisible by 3
