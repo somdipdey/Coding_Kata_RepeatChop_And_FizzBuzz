@@ -27,8 +27,7 @@ namespace Coding_Kata_RepeatChop_And_FizzBuzz
             {
                 // For the number of consecutives allowed, put that number of
                 // characters and build the string to be returned
-                for (int i = 0; i < ConsecutiveAllowed; i++)
-                    result += c.ToString();
+                result += new string(c, ConsecutiveAllowed);
             }
 
             return result;
