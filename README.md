@@ -21,3 +21,12 @@
 	as argument to the method from 0. For each number in the ietration, the factorial of that number divisible by 3 or and 5 are retrived in the form of Tuples.
 	This implemntation also has time complexity of O(N). The return value of FizzBuzz(int) is a list of string obejcts and the gcAllowVeryLargeObjects is set to true to enable the CLR to allow large objects
 	greater than 2GB during the runtime. This method is also executed for FizzBuzz(100000) and the program ran to completion. 
+	
+# Result Screenshot
+
+![Solution Result Fizz Buzz](https://user-images.githubusercontent.com/8515608/33633571-43848d1a-da09-11e7-8914-d4fc19773d93.png "Remove repetetive characters")
+	
+![Solution Result Fizz Buzz](https://user-images.githubusercontent.com/8515608/33633569-434677f0-da09-11e7-81aa-df4bfc00ee88.png "Fizz Buzz output on console")
+
+![Solution Result Fizz Buzz](https://user-images.githubusercontent.com/8515608/33633570-436ac4ca-da09-11e7-922d-1290c942d8fb.png "Fizz Buzz application footprint on memory for Paramter = 100,000")
+
