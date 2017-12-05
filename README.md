@@ -28,5 +28,7 @@
 	
 ![Solution Result Fizz Buzz](https://user-images.githubusercontent.com/8515608/33633569-434677f0-da09-11e7-81aa-df4bfc00ee88.png "Fizz Buzz output on console")
 
+#### Fizz Buzz solution's memory footprint for Paramter = 100,000 i.e. FizzBuzz(100000)
+
 ![Solution Result Fizz Buzz](https://user-images.githubusercontent.com/8515608/33633570-436ac4ca-da09-11e7-922d-1290c942d8fb.png "Fizz Buzz application footprint on memory for Paramter = 100,000")
 
