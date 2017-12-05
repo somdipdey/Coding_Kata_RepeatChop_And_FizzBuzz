@@ -87,10 +87,10 @@ namespace Coding_Kata_RepeatChop_And_FizzBuzz
             {
                 var factorTuple = CalculateMutipleOfThreeOrFive(num);
 
-                // factorTuple.Item1 == true or false for factor of 3
-                // factorTuple.Item2 == true or false for factor of 5
-                // factorTuple.Item3 == factor of 3
-                // factorTuple.Item4 == factor of 5
+                // factorTuple.Item1 == true or false for multiple of 3
+                // factorTuple.Item2 == true or false for multiple of 5
+                // factorTuple.Item3 == multiple of 3
+                // factorTuple.Item4 == multiple of 5
 
                 // For factor of 3
                 if (factorTuple.Item1 && !factorTuple.Item2)
