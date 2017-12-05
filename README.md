@@ -9,7 +9,7 @@
     Where the number of 'z' characters each word is the same as the other factor of the input number
     For multiples of both 3 and 5 replace the number with both of the corresponding 'Fizz'-'Buzz' words. eg 15=\"Fizzzzz-Buzzz\
 
-# Solution
+# Solutions
 
 ## Challenge 'Remove Extra Chars'
 	In the StringExtension class, RemoveConsecuitiveChars(int) method accepts the number of allowed consecutive characters as int.
